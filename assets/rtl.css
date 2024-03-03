@@ -1,0 +1,19 @@
+/* rtl.css */
+html {
+  direction: rtl;
+}
+
+body {
+  text-align: right;
+}
+
+/* Adjustments for Bootstrap and Dash components to better fit RTL layout */
+.dcc_control, .dbc_button, .dbc_tabs, .dbc_tabs-content {
+  direction: rtl;
+}
+
+/* Ensure tab content also aligns RTL */
+.tab-content > .tab-pane {
+  direction: rtl;
+  text-align: right;
+}
