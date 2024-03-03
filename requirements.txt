@@ -1,7 +1,6 @@
 pandas
 dash
 dash_bootstrap_components
-plotly.graph_objects
 datetime
 jalali_pandas
 arrow
