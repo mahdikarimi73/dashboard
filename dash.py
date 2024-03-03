@@ -112,6 +112,7 @@ def bar_with_line(data_frame, x, y, title=None):                       # Visuali
 
 ###################################### لایه های اپلیکیشن ########################################
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SOLAR], suppress_callback_exceptions=True)
+server = app.server
 CONTENT_STYLE = {
     "margin-right": "2rem",
     "margin-left": "2rem",
