@@ -1,7 +1,7 @@
 import pandas as pd
 import random
 import dash
-from dash import html , Dash, html , Input, Output , State , dash_table
+import dcc , html , Dash, html , Input, Output , State , dash_table
 import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
 from datetime import datetime
